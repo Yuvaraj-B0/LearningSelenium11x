@@ -53,7 +53,7 @@ public class applitools_task {
 
             }
         }
-      //  System.out.println(total);
+        System.out.println(total);
         Assert.assertEquals(total,1996.22,"Assertion verified");
         driver.quit();
 
