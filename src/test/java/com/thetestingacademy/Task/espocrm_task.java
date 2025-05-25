@@ -82,6 +82,8 @@ public class espocrm_task {
         String name = Get_name.getText();
         Assert.assertEquals(name,f_name+" "+l_name);
 
+        driver.quit();
+
     }
 
 }

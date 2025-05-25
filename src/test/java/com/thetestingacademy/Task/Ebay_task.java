@@ -52,6 +52,8 @@ public class Ebay_task {
             System.out.println("No valid prices found.");
         }
 
+        driver.quit();
+
 
     }
 }
